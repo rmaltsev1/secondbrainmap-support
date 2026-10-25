@@ -44,12 +44,18 @@
     <p>Second Brain Map ("Brain Map", "the app") is made by Rinat Maltsev. In short: <b>the app collects no data. There are no accounts, ads, analytics or tracking, all of the AI runs on your iPhone, and your notes stay on your device and in your own iCloud.</b> The developer can't read them.</p>
 
     <h2>Your notes</h2>
-    <p>Everything you capture (text, voice notes and their transcripts, photos and the text recognized in them, links, tags, titles, summaries, connections and reminders) is stored <b>on your iPhone</b>. If you turn on iCloud sync, the app copies it through Apple's iCloud (CloudKit) to <b>your private iCloud database</b>, so it's available on your other devices. Only your Apple Account can read that database; the developer has no access to it, and nothing is shared with anyone else. Apple's privacy policy applies to iCloud.</p>
+    <p>Everything you capture (text, voice notes and their transcripts, photos and the text recognized in them, links, tags, titles, summaries, connections and reminders) is stored <b>on your iPhone</b>. If you turn on iCloud sync, the app copies it through Apple's iCloud (CloudKit) to <b>your private iCloud database</b>, so it's available on your other devices. Only your Apple Account can read that database; the developer has no access to it. Apple's privacy policy applies to iCloud.</p>
+
+    <h2>Sharing with friends and family</h2>
+    <p>You can choose to share a note or a project with people you invite. Brain Map then uses Apple's iCloud sharing (CloudKit): the shared note or project, with its notes and tasks, is stored in your iCloud and made available to the people you invited, with the permission you chose (view only or can make changes). They see it in their own copy of Brain Map. You can remove people or stop sharing at any time; anyone can leave something shared with them. Nothing is ever shared unless you invite someone, there is no public profile or feed, and the developer can't see shared content either.</p>
+
+    <h2>Calendar</h2>
+    <p>Calendar features are optional and off until you turn them on. If you turn on "Show in Calendar", Brain Map adds the due dates of your tasks and projects (and, if you choose, note reminders) to a "Brain Map" calendar on your iPhone, which your calendar account may sync like any other calendar. If you turn on linking notes to meetings, Brain Map reads the title and time of the event happening when you capture a note, on your iPhone, so you can attach it to that note. Calendar data never goes to the developer.</p>
 
     <h2>On-device intelligence</h2>
     <p>Brain Map's "AI" runs entirely <b>on your iPhone</b>:</p>
     <ul>
-      <li><b>Voice</b>: what you say is turned into text by Apple's on-device speech recognition. If your iPhone can't recognize your language on the device, voice transcription isn't available; audio is never sent to a server to be transcribed.</li>
+      <li><b>Voice</b>: what you say is turned into text by Apple's on-device speech recognition. When your iPhone can't recognize your language on the device, Apple's speech recognition service transcribes it instead (Apple's privacy policy applies, and the app tells you when this happens). Your audio is never sent to the developer.</li>
       <li><b>Photos</b>: text in photos is recognized on your iPhone (Apple's Vision framework).</li>
       <li><b>Titles, tags, links between notes, search by meaning</b>: computed on your iPhone with Apple's NaturalLanguage framework and, where available, Apple Intelligence's on-device model.</li>
       <li><b>Ask</b>: questions are answered from your notes on your iPhone. Written answers use Apple Intelligence's on-device model where it's available.</li>
@@ -63,7 +69,7 @@
     <p>Widgets show your recent notes from a small file kept on your iPhone, in the app's private storage. Notes you add from the share sheet, Siri, Shortcuts or Control Center are queued on your iPhone until Brain Map files them. None of this leaves your device (except through your own iCloud sync, as above).</p>
 
     <h2>Permissions</h2>
-    <p>Brain Map asks for the microphone and speech recognition (voice notes), the camera (photo notes) and notifications (reminders you set) only when you first use those features. Everything else works without them, and you can change them any time in Settings.</p>
+    <p>Brain Map asks for the microphone and speech recognition (voice notes and voice questions), the camera (photo notes), notifications (reminders you set) and calendars (only if you turn on a calendar feature) only when you first use those features. Everything else works without them, and you can change them any time in Settings.</p>
 
     <h2>No tracking, ads or analytics</h2>
     <p>The app contains no advertising, analytics, crash-reporting or tracking code, doesn't use the advertising identifier, and has no server of its own. In the App Store's terms: <b>Data Not Collected</b>.</p>
