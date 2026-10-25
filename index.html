@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Second Brain Map — Support</title>
+<meta name="description" content="Second Brain Map (Brain Map on your Home Screen): a free, private second brain for iPhone. Capture in one tap, notes organise themselves, find anything by meaning. Help and contact.">
+<link rel="icon" href="icon.png">
+<style>
+  :root {
+    --violet: #6c5ce7; --teal: #00c2a8; --ink: #17152b; --muted: #5b5873; --accent: #5a4bd6;
+    --card: #ffffff; --bg: #f5f4fb; color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #f0eefc; --muted: #b7b3d1; --accent: #8e80ff; --card: #211e38; --bg: #17152b; }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: ui-rounded, -apple-system, BlinkMacSystemFont, "SF Pro Rounded", "Segoe UI", sans-serif;
+    background: var(--bg); color: var(--ink); line-height: 1.6;
+  }
+  header {
+    background: linear-gradient(135deg, var(--violet), #3d8cdb, var(--teal)); color: #fff;
+    text-align: center; padding: 56px 16px 72px;
+  }
+  header img { width: 112px; height: 112px; border-radius: 26px; box-shadow: 0 12px 32px rgba(23,21,43,.25); }
+  header h1 { font-size: 34px; font-weight: 800; margin-top: 18px; }
+  header p { font-size: 18px; color: #fff; opacity: .92; margin-top: 6px; }
+  main { max-width: 720px; margin: -40px auto 0; padding: 0 16px 48px; }
+  .card {
+    background: var(--card); border-radius: 22px; padding: 26px 24px; margin-bottom: 16px;
+    box-shadow: 0 8px 28px rgba(23,21,43,.08);
+  }
+  h2 { font-size: 21px; margin-bottom: 10px; }
+  h3 { font-size: 16px; margin: 16px 0 4px; }
+  p, li { color: var(--muted); }
+  ul { padding-left: 20px; }
+  b { color: var(--ink); }
+  a { color: var(--accent); font-weight: 600; text-decoration: none; }
+  .note { font-size: 14px; margin-top: 10px; }
+  .contact { text-align: center; }
+  .button {
+    display: inline-block; margin-top: 10px; padding: 12px 22px; border-radius: 999px;
+    background: linear-gradient(135deg, var(--violet), var(--teal)); color: #fff;
+  }
+  footer { text-align: center; color: var(--muted); font-size: 14px; padding: 8px 16px 32px; }
+</style>
+</head>
+<body>
+  <header>
+    <img src="icon.png" alt="Second Brain Map app icon">
+    <h1>Second Brain Map</h1>
+    <p>A free, private second brain for your iPhone</p>
+  </header>
+  <main>
+    <section class="card">
+      <h2>What it does</h2>
+      <ul>
+        <li>Capture a thought in one tap: type it, say it, snap a photo or share a link.</li>
+        <li>Every note gets a title, tags and links to related notes, made on your iPhone.</li>
+        <li>Find anything by meaning, see how your ideas connect on a living map, and ask your notes questions.</li>
+        <li>Free, with no account, no ads, no tracking and no limits. In English, Russian and Ukrainian.</li>
+      </ul>
+      <p class="note">On your Home Screen the app is called <b>Brain Map</b>.</p>
+    </section>
+
+    <section class="card">
+      <h2>Frequently asked questions</h2>
+      <h3>Do I need an account?</h3>
+      <p>No. Brain Map works right away. If you like, it syncs your notes between your devices through your own iCloud.</p>
+      <h3>Where are my notes stored?</h3>
+      <p>On your iPhone, and, if sync is on, in your private iCloud database, which only your Apple Account can read. The developer can't see your notes. See the <a href="privacy.html">privacy policy</a>.</p>
+      <h3>Does the AI send my notes anywhere?</h3>
+      <p>No. Speech recognition, text in photos, tags, links, search and answers all run on your iPhone. Written answers in Ask use Apple Intelligence on devices that support it; on other iPhones, Ask shows the notes that answer your question.</p>
+      <h3>How do I turn iCloud sync on or off?</h3>
+      <p>In Brain Map's Settings. Sync needs iCloud: sign in under Settings › Apple Account, and make sure iCloud Drive and Brain Map are allowed under Settings › Apple Account › iCloud.</p>
+      <h3>What is the Inbox?</h3>
+      <p>When Brain Map isn't sure how to title or tag a note, it puts it in the Inbox so you can confirm or fix it with one tap.</p>
+      <h3>Voice notes don't work in my language.</h3>
+      <p>Voice notes are transcribed on your iPhone. Check that the language's dictation is available under Settings › General › Keyboard › Dictation Languages, and that Brain Map has microphone and speech recognition access under Settings › Apps › Brain Map.</p>
+      <h3>How do I export or delete my notes?</h3>
+      <p>Export everything as Markdown or JSON from Brain Map's Settings. Delete a note by swiping it; to remove everything, delete the app, and its iCloud data under Settings › Apple Account › iCloud › Manage Storage.</p>
+    </section>
+
+    <section class="card contact">
+      <h2>Contact</h2>
+      <p>Questions, bugs or ideas? We read every message, in English, Ukrainian or Russian.</p>
+      <a class="button" href="mailto:rinatjkeee666@gmail.com?subject=Second%20Brain%20Map">Email support</a>
+      <p class="note" style="margin-top:14px">This page is in English. Brain Map itself speaks English, Russian and Ukrainian.</p>
+    </section>
+  </main>
+  <footer>© 2026 Rinat Maltsev · <a href="privacy.html">Privacy Policy</a></footer>
+</body>
+</html>
